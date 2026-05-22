@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "PBGEN GLENN OLIVER C CINCO",
+  title: "PBGEN RANDY Y ARCEO",
   description: "online calling card",
 };
 
