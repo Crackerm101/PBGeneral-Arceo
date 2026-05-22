@@ -3,12 +3,12 @@
 import React from 'react';
 import { MdCloudDownload } from "react-icons/md";
 const contact = {
-  firstName: 'PBGEN GLENN OLIVER C',
-  lastName: 'CINCO ',
-  phone: '+639173536887',
-  email: 'cincoglennoliver@yahoo.com',
-  organization: 'District Director,SPD',
-  location: 'Fort Bonifacio,Taguig City 1100, Philippines',
+ firstName: 'PBGEN RANDY Y',
+  lastName: 'ARCEO ',
+  phone: '+639175741332',
+  email: 'ryrcu1994@yahoo.com',
+  organization: 'Philippine National Police (PNP)',
+  location: 'Taguig City 1100, Philippines',
 };
 
 function generateVCF(contact) {
