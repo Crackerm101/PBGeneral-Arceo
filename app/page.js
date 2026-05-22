@@ -42,7 +42,7 @@ export default function Home() {
 
             {/* Card Header Image */}
             <a href="#" className="w-full select-none pointer-events-none">
-              <img className="w-full h-auto object-cover" src="DD-CINCO.png" alt="" />
+              <img className="w-full h-auto object-cover" src="card-background.png" alt="" />
             </a>
 
             {/* Profile Name & Title Section */}
