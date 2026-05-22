@@ -7,8 +7,8 @@ import { useState, useEffect } from 'react';
 import Loader from './components/Loader';
 
 export default function Home() {
-  const phoneNumber = '+639175741332';
-  const emailAddress = 'ryrcu1994@yahoo.com';
+  const phoneNumber = '+639173536887';
+  const emailAddress = 'cincoglennoliver@yahoo.com';
 
   const [loading, setLoading] = useState(true);
 
@@ -42,7 +42,7 @@ export default function Home() {
 
             {/* Card Header Image */}
             <a href="#" className="w-full select-none pointer-events-none">
-              <img className="w-full h-auto object-cover" src="card-background.png" alt="" />
+              <img className="w-full h-auto object-cover" src="DD-CINCO.png" alt="" />
             </a>
 
             {/* Profile Name & Title Section */}
@@ -59,10 +59,15 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col items-center mt-7 px-4 w-full">
-                <h2 className="text-[17px] min-[360px]:text-[19px] sm:text-xl font-black text-white text-center tracking-wide leading-tight">
-                  PBGEN RANDY Y ARCEO
+                <h2 className="text-[15px] min-[360px]:text-[17px] sm:text-xl font-black text-white text-center tracking-wide leading-tight">
+                  PBGEN GLENN OLIVER C CINCO
                 </h2>
-
+                 <p className="text-[10px] min-[360px]:text-[14px] text-center text-slate-400 font-black max-w-[280px] leading-relaxed">
+               DISTRICT DIRECTOR
+              </p>
+                 <p className="text-[10px] min-[360px]:text-[14px] text-center text-slate-400 font-medium max-w-[280px] leading-relaxed">
+               BATCH 96
+              </p>
                 {/* Decorative line divider */}
                 <div className="flex items-center justify-center gap-2 mt-2 w-full max-w-[200px]">
                   <div className="flex-1 h-[1px] bg-gradient-to-r from-transparent via-blue-400/60 to-blue-300/80" />

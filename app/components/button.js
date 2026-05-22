@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 
 export default function ComposeEmail() {
   // Change these four lines to suit your message
-  const TO       = 'rycu1994@yahoo.com';
+  const TO       = 'cincoglennoliver@yahoo.com';
   const SUBJECT  = '';
   const BODY     = '';
   const CC       = ''; // optional, leave blank if not needed
