@@ -25,16 +25,16 @@ export default function Home() {
     <div className="min-h-screen w-full flex flex-col items-center justify-center p-3 sm:p-8 font-[family-name:var(--font-geist-sans)] select-none">
       <div className="relative group w-full flex justify-center">
         {/* Tablet & Desktop Ambient Glow Effect */}
-        <div className="absolute -inset-1 bg-gradient-to-r from-red-600 via-rose-500 to-red-700 rounded-2xl blur-2xl opacity-20 group-hover:opacity-35 transition duration-1000 group-hover:duration-300 pointer-events-none hidden md:block"></div>
+        <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 via-blue-500 to-blue-700 rounded-2xl blur-2xl opacity-20 group-hover:opacity-35 transition duration-1000 group-hover:duration-300 pointer-events-none hidden md:block"></div>
         
         {/* Outer border container with rotating conic gradient */}
-        <div className="relative w-full max-w-[290px] min-[360px]:max-w-[340px] sm:max-w-[360px] md:max-w-[380px] p-[2px] rounded-2xl overflow-hidden bg-slate-900 shadow-2xl transition-all duration-300 hover:shadow-[0_20px_50px_rgba(185,28,28,0.4)] hover:-translate-y-0.5">
+        <div className="relative w-full max-w-[290px] min-[360px]:max-w-[340px] sm:max-w-[360px] md:max-w-[380px] p-[2px] rounded-2xl overflow-hidden bg-slate-900 shadow-2xl transition-all duration-300 hover:-translate-y-0.5">
           
           {/* Rotating Light Line (Conic Gradient) — neon red, reduced opacity */}
           <div
             className="absolute inset-[-1000%] animate-[spin_8s_linear_infinite]"
             style={{
-              background: 'conic-gradient(from 90deg at 50% 50%, rgba(220,38,38,0.55) 0%, rgba(248,113,113,0.35) 25%, #090d16 50%, rgba(248,113,113,0.35) 75%, rgba(220,38,38,0.55) 100%)',
+              background: 'conic-gradient(from 90deg at 50% 50%, rgba(37,99,235,0.55) 0%, rgba(96,165,250,0.35) 25%, #090d16 50%, rgba(96,165,250,0.35) 75%, rgba(37,99,235,0.55) 100%)',
             }}
           />
           
@@ -85,14 +85,14 @@ export default function Home() {
                 text="SLIDE TO CALL"
                 targetUrl={`tel:${phoneNumber}`}
                 successText="CALLING..."
-                activeColorClass="from-red-600 to-rose-500"
+                activeColorClass="from-blue-600 to-blue-500"
               />
               <SlideButton
                 iconSrc="/mail.png"
                 text="SLIDE TO EMAIL"
                 targetUrl={`mailto:${emailAddress}`}
                 successText="EMAILING..."
-                activeColorClass="from-red-700 to-red-500"
+                activeColorClass="from-blue-700 to-blue-500"
               />
             </div>
 
