@@ -42,7 +42,7 @@ export default function App() {
   return (
     <div className="flex w-full justify-center mt-5 px-6">
       <button
-        className="w-full max-w-[320px] px-6 py-4 bg-gradient-to-r from-yellow-500 via-amber-500 to-yellow-600 hover:from-yellow-400 hover:to-amber-500 text-slate-950 rounded-full font-extrabold tracking-widest outline-none focus:ring-2 focus:ring-yellow-400 shadow-[0_4px_15px_rgba(245,158,11,0.3)] hover:shadow-[0_4px_20px_rgba(245,158,11,0.5)] transform active:scale-95 transition-all duration-200 flex items-center justify-center gap-2 text-sm cursor-pointer"
+        className="w-full max-w-[320px] px-6 py-4 bg-gradient-to-r from-red-600 via-rose-600 to-red-700 hover:from-red-500 hover:to-rose-600 text-white rounded-full font-extrabold tracking-widest outline-none focus:ring-2 focus:ring-red-400 shadow-[0_4px_15px_rgba(220,38,38,0.3)] hover:shadow-[0_4px_20px_rgba(220,38,38,0.5)] transform active:scale-95 transition-all duration-200 flex items-center justify-center gap-2 text-sm cursor-pointer"
         onClick={downloadVCF}
       >
         <MdCloudDownload className="text-xl" />

@@ -2,7 +2,7 @@
 import { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 
-export default function SlideButton({ iconSrc, text, targetUrl, successText, activeColorClass = 'from-blue-600 to-indigo-600' }) {
+export default function SlideButton({ iconSrc, text, targetUrl, successText, activeColorClass = 'from-red-600 to-rose-500' }) {
   const [dragX, setDragX] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const [isCompleted, setIsCompleted] = useState(false);
@@ -77,7 +77,7 @@ export default function SlideButton({ iconSrc, text, targetUrl, successText, act
   return (
     <div 
       ref={containerRef}
-      className="relative w-full max-w-[320px] h-16 bg-blue-950/70 border border-blue-900/40 rounded-full flex items-center p-1 overflow-hidden select-none shadow-[inset_0_2px_6px_rgba(0,0,0,0.8)] touch-none"
+      className="relative w-full max-w-[320px] h-16 bg-slate-900/80 border border-slate-700/50 rounded-full flex items-center p-1 overflow-hidden select-none shadow-[inset_0_2px_6px_rgba(0,0,0,0.8)] touch-none"
     >
       {/* Background Completed Progress Gradient */}
       <div 
