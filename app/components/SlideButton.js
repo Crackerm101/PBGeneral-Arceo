@@ -77,13 +77,13 @@ export default function SlideButton({ iconSrc, text, targetUrl, successText, act
   return (
     <div 
       ref={containerRef}
-      className="relative w-full max-w-[320px] h-16 bg-slate-900/80 border border-slate-700/50 rounded-full flex items-center p-1 overflow-hidden select-none shadow-[inset_0_2px_6px_rgba(0,0,0,0.8)] touch-none"
+      className="relative w-full max-w-[320px] h-14 bg-slate-900/80 border border-slate-700/50 rounded-full flex items-center p-1 overflow-hidden select-none shadow-[inset_0_2px_6px_rgba(0,0,0,0.8)] touch-none"
     >
       {/* Background Completed Progress Gradient */}
       <div 
         className={`absolute left-1 top-1 bottom-1 bg-gradient-to-r ${activeColorClass} rounded-full transition-all duration-75 ease-out`}
         style={{ 
-          width: `calc(${progressPercent}% + 56px)`,
+          width: `calc(${progressPercent}% + 48px)`,
           opacity: progressPercent > 5 ? 1 : 0.3
         }}
       />
@@ -99,7 +99,7 @@ export default function SlideButton({ iconSrc, text, targetUrl, successText, act
       {/* Slide Handle */}
       <div
         ref={handleRef}
-        className={`w-14 h-14 rounded-full bg-slate-900 border border-slate-700 flex items-center justify-center shadow-[0_4px_10px_rgba(0,0,0,0.5)] cursor-grab active:cursor-grabbing touch-none select-none z-10`}
+        className={`w-12 h-12 rounded-full bg-slate-900 border border-slate-700 flex items-center justify-center shadow-[0_4px_10px_rgba(0,0,0,0.5)] cursor-grab active:cursor-grabbing touch-none select-none z-10`}
         style={{
           transform: `translateX(${dragX}px)`,
           transition: isDragging ? 'none' : 'transform 250ms cubic-bezier(0.25, 0.8, 0.25, 1)'
